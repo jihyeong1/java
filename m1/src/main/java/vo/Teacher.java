@@ -7,6 +7,13 @@ public class Teacher {
 	private String teacherHistory;
 	private String updatedate;
 	private String createdate;
+	private String teacherSubjectName;
+	public String getTeacherSubjectName() {
+		return teacherSubjectName;
+	}
+	public void setTeacherSubjectName(String teacherSubjectName) {
+		this.teacherSubjectName = teacherSubjectName;
+	}
 	public int getTeacherNo() {
 		return teacherNo;
 	}
